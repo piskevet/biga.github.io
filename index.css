@@ -847,3 +847,28 @@ input:focus {
     font-family: sans-serif;
     font-weight: lighter;
 }
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+/* Tablet için stil ayarları */
+@media (max-width: 1024px) {
+    .container {
+        width: 90%;
+    }
+}
+
+/* Mobil cihazlar için stil ayarları */
+@media (max-width: 768px) {
+    body {
+        font-size: 14px; /* Yazı boyutunu küçült */
+    }
+    .container {
+        width: 100%; /* Tam genişlik */
+        padding: 10px; /* İçerik için boşluk */
+    }
+    .header {
+        text-align: center; /* Başlıkları ortala */
+    }
