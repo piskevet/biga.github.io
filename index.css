@@ -117,7 +117,6 @@ h3 {
 #photo {
     width: 96.3%;
     height: 100vh;
-    /* border: 1px solid red;*/
     margin-left: 3rem;
     align-items: center;
     overflow: hidden;
@@ -201,7 +200,6 @@ h3 {
     width: 389px;
     height: 100%;
     background: rgb(19, 18, 18);
-    /* border: 1px solid red;*/
     margin-left: 3.1rem;
     align-items: center;
 }
@@ -210,7 +208,6 @@ h3 {
     position: absolute;
     width: 170px;
     height: 170px;
-    /*border: 1px solid red;*/
     margin-left: 19rem;
     margin-top: 11rem;
 }
@@ -227,7 +224,6 @@ h3 {
     width: 910px;
     height: 100vh;
     background: rgb(46, 45, 45);
-    /*  border: 1px solid red;*/
     margin-left: 3.1rem;
     float: right;
     margin-top: -41.089rem;
@@ -261,7 +257,6 @@ span {
 #service {
     width: 100%;
     height: 100vh;
-    /*border: 1px solid red;*/
     display: grid;
     place-items: center;
 }
@@ -291,7 +286,6 @@ hr {
 #ser {
     width: 100%;
     height: 535px;
-    /* border: 1px solid red;*/
     display: flex;
     justify-content: space-evenly;
     align-items: center;
@@ -301,7 +295,6 @@ hr {
 .card {
     width: 305px;
     height: 500px;
-    /*border: 1px solid green;*/
     display: grid;
     place-items: center;
     background: rgb(17, 17, 17);
@@ -336,7 +329,6 @@ hr {
 #slider {
     width: 100%;
     height: 100vh;
-    /*border: 1px solid red;*/
     display: grid;
     place-items: center;
     background: rgb(0, 0, 0);
@@ -353,7 +345,6 @@ hr {
 #testbox {
     width: 100%;
     height: 535px;
-    /*border: 1px solid red;*/
     display: flex;
     justify-content: space-evenly;
     align-items: center;
@@ -364,7 +355,6 @@ hr {
 .review {
     width: 350px;
     height: 500px;
-    /* border: 1px solid green;*/
     background: #28334AFF;
     display: grid;
     place-items: center;
@@ -425,7 +415,6 @@ hr {
 #projects {
     width: 100%;
     height: 100vh;
-    /*border: 1px solid red;*/
     display: grid;
     place-items: center;
     background: rgb(0, 0, 0);
@@ -450,7 +439,6 @@ hr {
 #work {
     width: 100%;
     height: 390px;
-    /* border: 1px solid red;*/
     display: flex;
     justify-content: space-evenly;
     align-items: center;
@@ -461,7 +449,6 @@ hr {
 .webpage {
     width: 350px;
     height: 350px;
-    /* border: 1px solid green;*/
     background: #28334AFF;
     display: grid;
     place-items: center;
@@ -504,7 +491,6 @@ button:focus {
 #qrev {
     width: 100%;
     height: 350px;
-    /* border: 1px solid red; */
     display: flex;
     justify-content: center;
 }
@@ -512,7 +498,6 @@ button:focus {
 .show {
     width: 100%;
     height: 100%;
-    /* border: 1px solid rgb(15, 119, 18); */
     display: flex;
     justify-content: center;
 }
@@ -520,7 +505,6 @@ button:focus {
 .slide {
     width: 90%;
     height: 100%;
-    /* border: 1px solid rgb(15, 119, 18); */
     display: grid;
     place-items: center;
     position: relative;
@@ -559,7 +543,6 @@ button:focus {
 #contact {
     width: 100%;
     height: 100vh;
-    /* border: 1px solid red; */
     display: grid;
     place-items: center;
 }
@@ -587,7 +570,6 @@ button:focus {
 #cbox {
     width: 97%;
     height: 100%;
-    /* border: yellow; */
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
@@ -596,7 +578,6 @@ button:focus {
 #details {
     width: 380px;
     height: 500px;
-    /* border: 1px solid blue; */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -671,7 +652,6 @@ button:focus {
 #message {
     width: 750px;
     height: 500px;
-    /* border: 1px solid blue; */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -681,7 +661,6 @@ button:focus {
 form {
     width: 503px;
     height: 382px;
-    /* border: 1px solid red; */
 }
 
 #message>h2 {
@@ -744,7 +723,6 @@ input:focus {
 #footer {
     width: 100%;
     height: auto;
-    /* border: 1px solid red; */
     display: grid;
     place-items: center;
 }
@@ -770,7 +748,6 @@ input:focus {
 #follow {
     width: 100%;
     height: 150px;
-    /* border: 1px solid green; */
 }
 
 #ff {
@@ -781,94 +758,4 @@ input:focus {
 
 #ff>li {
     font-size: 3.5rem;
-    color: white;
-    list-style: none;
-    margin-top: 3rem;
-}
-
-#ff .fa-facebook {
-    color: rgb(59, 89, 152);
-}
-
-#ff .fa-instagram {
-    color: rgb(195, 42, 163);
-}
-
-#ff .fa-twitter {
-    color: rgb(6, 165, 238);
-}
-
-#ff .fa-google-plus-g {
-    color: rgb(255, 50, 50);
-}
-
-#ff .fa-youtube {
-    color: rgb(245, 0, 0);
-}
-
-#copyright {
-    width: 100%;
-    height: 50px;
-    /* border: 1px solid yellow; */
-    display: flex;
-    justify-content: center;
-    background: rgb(5, 136, 237);
-}
-
-#copyright h3 {
-    font-family: sans-serif;
-    font-weight: lighter;
-    letter-spacing: 1.7px;
-    font-size: 1.1rem;
-    margin-top: 0rem;
-    margin-left: 0rem;
-    padding: 0.8rem 5rem;
-    text-align: center;
-}
-
-.cr {
-    font-size: 1.1rem;
-    padding-right: 0.5rem;
-}
-
-#admin {
-    width: 100%;
-    height: 100vh;
-    border: 1px solid red;
-    display: grid;
-    background-color: white;
-    place-items: center;
-    color: white;
-}
-
-#admin>#heading {
-    color: black;
-    font-size: 3rem;
-    font-family: sans-serif;
-    font-weight: lighter;
-}
-
-.container {
-    width: 80%;
-    margin: 0 auto;
-}
-
-/* Tablet için stil ayarları */
-@media (max-width: 1024px) {
-    .container {
-        width: 90%;
-    }
-}
-
-/* Mobil cihazlar için stil ayarları */
-@media (max-width: 768px) {
-    body {
-        font-size: 14px; /* Yazı boyutunu küçült */
-    }
-    .container {
-        width: 100%; /* Tam genişlik */
-        padding: 10px; /* İçerik için boşluk */
-    }
-    .header {
-        text-align: center; /* Başlıkları ortala */
-    }
+    color:
